@@ -24,11 +24,16 @@ public class PickUpObject : MonoBehaviour {
 		if (carrying) {
 			if (carriedObject == GameObject.FindWithTag("Finish")) {
 				Debug.Log("Game Over");
-				Application.LoadLevel(1);
+				Wait();
+				Application.LoadLevel(0);
 			}
 		}
 	}
-	
+
+	IEnumerator Wait() {
+		yield return new WaitForSeconds (5000);
+	}
+
 	void pickup() {
 		if(Input.GetKeyDown (KeyCode.E)) {
 			int x = Screen.width;
