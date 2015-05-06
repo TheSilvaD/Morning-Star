@@ -13,13 +13,11 @@ public class Pause : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.P)) {
 			if(CanPause)
 			{
-				Debug.Log("pause");
 				Time.timeScale=0;
 				CanPause = false;
 			}
 			else
 			{
-				Debug.Log("unpause");
 				Time.timeScale=1;
 				CanPause=true;
 			}
