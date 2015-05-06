@@ -33,6 +33,8 @@ a = move left
 
 d = move right
 
+f = toggle flashlight
+
 spacebar = jump
 
 escape = pause
