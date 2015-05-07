@@ -8,13 +8,14 @@ San Diego State University Spring 2015
 =================================================================================
 INTRODUCTION
 =================================================================================
-
-
-
-
-
-
-
+This game was initially intended to be a RPG dungeon crawler. The title of the
+game "Morning Star" was indicative of the initial genre. We were inspired
+by "Diablo", a popular RPG dungeon crawler. "Diablo" is another name for "devil"
+and "Morning Star" is another name for "Lucifer", hence the attempted similarity.
+Due to the lack of time, we decided to go with a more focused approached and 
+scrapped the genre altogether. We wanted to twist the atmosphere of the original
+genre and go for a darker, more foreboding tone and approach. Our next inspiration
+for this genre was from a game called "Slender."
 
 ================================================================================= 
 
@@ -58,9 +59,10 @@ RULES
 =================================================================================
 Art Assets
 =================================================================================
-All of the dungeons assets were borrowed from the  Decreipt Dungeon package from
-the unity3d asset store.  Photoshop CC was used to create the Note asset by
-editing the old parchment texture.  The text written on the note has an
+All dungeon theme assets are from Decrepit Dungeon package from
+the Unity asset store.  Photoshop CS6 was used by Genaro Orodio to create the Note asset by
+editing the old parchment texture. Photoshop was also utilized to create the title
+logo, and credits within the credits screen.  The text written on the note has an
 appropriately themed font named "A Theme for Murder."
 =================================================================================
 
@@ -68,7 +70,7 @@ appropriately themed font named "A Theme for Murder."
 =================================================================================
 Audio Assets
 =================================================================================
-All sounds were borrowed from opengameart.org.  Appropriate credits are given
+All sounds were borrowed from opengameart.org and freefx.com.  Appropriate credits are given
 below.
 =================================================================================
 
@@ -76,7 +78,8 @@ below.
 =================================================================================
 Challenges and Issues
 =================================================================================
-
+Working in a 3-dimensional space is five times more difficult than working in
+a 2-dimensional space.
 
 
 
@@ -90,8 +93,9 @@ Bugs
 =================================================================================
 Pausing while in-game should stop all gameplay activity, including character
 movement, but the player is still able to rotate their camera left and right.
-We like to think of this "bug" as a special feature that lets you
-
+We like to think of this "bug" as a special feature that lets you explore your
+surroundings without penalty. There also may be several clipping instances 
+with the assets, particularly the wall and ceiling assets.
 
 =================================================================================
 
@@ -99,11 +103,13 @@ We like to think of this "bug" as a special feature that lets you
 =================================================================================
 Credits
 =================================================================================
-1. Game was made using the Unity Engine Version 5.0.1
-2. Decreipt Dungeon assets borrowed from the unity3d asset store
-3. Old parchment texture by myfreetextures from myfreetextures.com 
-   http://www.myfreetextures.com/worn-parchment-paper-background-texture-2/
+1. Made using the Unity Engine 5.0.1
+2. Decrepit Dungeon Assets Unity Asset Store
+3. Old parchment texture from http://www.myfreetextures.com/worn-parchment-paper-background-texture-2/
 4. Footsteps by Jute (qubodup) from opengameart.org
 5. Background music by SpiderDave from opengameart.org
 6. Fire crackle from http://www.freesfx.co.uk/sfx/crackle
 7. "A Theme for Murder" font from dafont.com
+8. Skeleton picture from https://artofstarving.files.wordpress.com/2014/05/pile_of_bones.jpg
+9. Dark face from http://www.footwa.com/wp-content/uploads/2012/11/Scary-face-Simi.jpg
+10. Demonic font from http://forum.zdoom.org/viewtopic.php?f=37&t=35951
