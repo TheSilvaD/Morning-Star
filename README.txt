@@ -38,7 +38,7 @@ f = toggle flashlight
 
 spacebar = jump
 
-escape = pause
+p = pause
 
 Mouse = camera movement
 =================================================================================
