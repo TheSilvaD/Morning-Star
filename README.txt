@@ -86,7 +86,7 @@ Bugs
 =================================================================================
 There may be several clipping instances 
 with the assets, particularly the wall and ceiling assets.
-
+The main scene won't go to credits when trying to pick up the key.
 =================================================================================
 
 
