@@ -25,7 +25,7 @@ public class PickUpObject : MonoBehaviour {
 			if (carriedObject == GameObject.FindWithTag("Finish")) {
 				Debug.Log("Game Over");
 				Wait();
-				Application.LoadLevel(0);
+				Application.LoadLevel(3);
 			}
 		}
 	}

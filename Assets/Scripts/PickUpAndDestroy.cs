@@ -12,7 +12,7 @@ public class PickUpAndDestroy : MonoBehaviour {
 			pickUpObj = player.GetComponent<PickUpObject>();
 			pickUpObj.carrying = true;
 			Destroy(gameObject);
-			Application.LoadLevel(2);
+			Application.LoadLevel(3);
 
 		}
 	}
