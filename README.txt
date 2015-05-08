@@ -47,12 +47,8 @@ Mouse = camera movement
 =================================================================================
 RULES
 =================================================================================
-
-
-
-
-
-
+The player has to navigate through the maze before the flashlight runs out of
+battery.
 =================================================================================
 
 
@@ -79,12 +75,10 @@ below.
 Challenges and Issues
 =================================================================================
 Working in a 3-dimensional space is five times more difficult than working in
-a 2-dimensional space.
-
-
-
-
-
+a 2-dimensional space.  It was a challenge to connect multiple 3D textures
+together.  Not being careful resulted in texture clipping.  Another issue we faced
+was that it was difficult to make enough time to get together.  We had to rely on
+emails and bitbucket when working on this project.
 =================================================================================
 
 
