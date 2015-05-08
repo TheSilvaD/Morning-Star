@@ -11,7 +11,7 @@ public class PickUpObject : MonoBehaviour {
 	void Start () {
 		player = GameObject.FindWithTag("player");
 	}
-
+	
 	void setCarry() {
 		carrying = true;
 	}
@@ -29,11 +29,11 @@ public class PickUpObject : MonoBehaviour {
 			}
 		}
 	}
-
+	
 	IEnumerator Wait() {
 		yield return new WaitForSeconds (5000);
 	}
-
+	
 	void pickup() {
 		if(Input.GetKeyDown (KeyCode.E)) {
 			int x = Screen.width;

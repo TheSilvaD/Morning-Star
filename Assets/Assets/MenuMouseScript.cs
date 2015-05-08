@@ -9,7 +9,7 @@ public class MenuMouseScript : MonoBehaviour {
 		if (this.name == "PlayButton")
 		{
 			// load the game
-			Application.LoadLevel("MorningStarScene");
+			Application.LoadLevel("controlscene");
 		}
 	}
 }
