@@ -34,30 +34,6 @@ public class MouseLook : MonoBehaviour {
 
 	void Update ()
 	{
-		if (Input.GetKeyDown (KeyCode.P)) {
-			if(CanPause)
-			{
-				CanPause = false;
-				Debug.Log("pause");
-				minimumX = 0;
-				maximumX = 0;
-				minimumY = 0;
-				maximumY = 0;
-				Time.timeScale=0;
-			}
-			else
-			{
-				Debug.Log("unpause");
-				minimumX = -360F;
-				maximumX = 360F;
-				minimumY = -60F;
-				maximumY = 60F;
-				Time.timeScale=1;
-
-				CanPause=true;
-			}
-		}
-
 		if (axes == RotationAxes.MouseXAndY)
 		{
 			float rotationX = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivityX;
