@@ -85,10 +85,7 @@ We had to rely on emails and bitbucket when working on this project.
 =================================================================================
 Bugs
 =================================================================================
-Pausing while in-game should stop all gameplay activity, including character
-movement, but the player is still able to rotate their camera left and right.
-We like to think of this "bug" as a special feature that lets you explore your
-surroundings without penalty. There also may be several clipping instances 
+There may be several clipping instances 
 with the assets, particularly the wall and ceiling assets.
 
 =================================================================================
