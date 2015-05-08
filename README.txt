@@ -47,8 +47,7 @@ Mouse = camera movement
 =================================================================================
 RULES
 =================================================================================
-The player has to navigate through the maze before the flashlight runs out of
-battery.
+The player has to navigate through the maze and locate the keys to escape.
 =================================================================================
 
 
