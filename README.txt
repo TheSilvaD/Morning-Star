@@ -15,10 +15,22 @@ and "Morning Star" is another name for "Lucifer", hence the attempted similarity
 Due to the lack of time, we decided to go with a more focused approached and 
 scrapped the genre altogether. We wanted to twist the atmosphere of the original
 genre and go for a darker, more foreboding tone and approach. Our next inspiration
-for this genre was from a game called "Slender."
-
+for this genre was from a game called "Slender." We love the tension this game
+brings and we thought it would be fun to replicate that kind of feeling. We also
+wanted to incorporate puzzles within the game- three to be exact, but we ran out
+of time. Instead, we thought of the brilliant idea to make the level, just one
+giant puzzle- a maze. Here the player will be tasked with finding the key that
+leads out of the prison.
 ================================================================================= 
 
+=================================================================================
+STORY
+=================================================================================
+You play as Joseph, an ordinary working class citizen. You wish for something
+exciting to happen...anything, that would bring a little spark to your life.
+Be careful what you wish for...You are kidnapped by a mysterious entity, and
+wake up in a dark prison. How did you get here? Will you survive?
+================================================================================= 
 
 =================================================================================
 CONTROLS
@@ -43,13 +55,14 @@ p = pause
 Mouse = camera movement
 =================================================================================
 
-
 =================================================================================
 RULES
 =================================================================================
-The player has to navigate through the maze and locate the keys to escape.
+The player has to navigate through the maze and locate the key to escape the 
+nightmare. There is a time limit though, your flashlight battery. As time goes 
+on, the flashlight light gets dimmer and dimmer. Once the battery is dead you
+are lost forever and you must restart or you can exit the game. Hurry!
 =================================================================================
-
 
 =================================================================================
 Art Assets
@@ -57,10 +70,9 @@ Art Assets
 All dungeon theme assets are from Decrepit Dungeon package from
 the Unity asset store.  Photoshop CS6 was used by Genaro Orodio to create the Note asset by
 editing the old parchment texture. Photoshop was also utilized to create the title
-logo, and credits within the credits screen.  The text written on the note has an
+logo, and 4 credits within the credits screen.  The text written on the note has an
 appropriately themed font named "A Theme for Murder."
 =================================================================================
-
 
 =================================================================================
 Audio Assets
@@ -68,7 +80,6 @@ Audio Assets
 All sounds were borrowed from opengameart.org and freefx.com.  Appropriate credits are given
 below.
 =================================================================================
-
 
 =================================================================================
 Challenges and Issues
@@ -86,9 +97,9 @@ Bugs
 =================================================================================
 There may be several clipping instances 
 with the assets, particularly the wall and ceiling assets.
-The main scene won't go to credits when trying to pick up the key.
+You can see the note text through walls. It's like the walls are transparent.
+Sometimes the camera can clip through walls.
 =================================================================================
-
 
 =================================================================================
 Credits
