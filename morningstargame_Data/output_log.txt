@@ -12,11 +12,99 @@ Platform assembly: C:\Users\Orodio\Repositories\morning_star\morningstargame_Dat
 Loading C:\Users\Orodio\Repositories\morning_star\morningstargame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Orodio\Repositories\morning_star\morningstargame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Orodio\Repositories\morning_star\morningstargame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.031 seconds
+- Completed reload, in  0.032 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: C:\Users\Orodio\Repositories\morning_star\morningstargame_Data\Managed\System.Core.dll (this message is harmless)
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: c64 -> priority: 1 
+  Thread -> id: 11c0 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.305083 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1012.
+Total: 0.185218 ms (FindLiveObjects: 0.037947 ms CreateObjectMapping: 0.014456 ms MarkObjects: 0.115949 ms  DeleteObjects: 0.016865 ms)
+
+UnityException: Tag: player is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectWithTag (string)
+  at UnityEngine.GameObject.FindWithTag (System.String tag) [0x00000] in <filename unknown>:0 
+  at PickUpObject.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: a98 -> priority: 1 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.556559 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 7605.
+Total: 1.504939 ms (FindLiveObjects: 0.250873 ms CreateObjectMapping: 0.089145 ms MarkObjects: 1.136610 ms  DeleteObjects: 0.027707 ms)
+
+UnityException: Tag: player is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectWithTag (string)
+  at UnityEngine.GameObject.FindWithTag (System.String tag) [0x00000] in <filename unknown>:0 
+  at PickUpObject.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2ec8 -> priority: 1 
+Change
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.547765 ms
+
+Unloading 142 unused Assets to reduce memory usage. Loaded Objects now: 150.
+Total: 0.702927 ms (FindLiveObjects: 0.023792 ms CreateObjectMapping: 0.012649 ms MarkObjects: 0.056619 ms  DeleteObjects: 0.609263 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2854 -> priority: 1 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.191844 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1013.
+Total: 0.200277 ms (FindLiveObjects: 0.035537 ms CreateObjectMapping: 0.016865 ms MarkObjects: 0.132815 ms  DeleteObjects: 0.014757 ms)
+
+UnityException: Tag: player is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectWithTag (string)
+  at UnityEngine.GameObject.FindWithTag (System.String tag) [0x00000] in <filename unknown>:0 
+  at PickUpObject.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3234 -> priority: 1 
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.527044 ms
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 301.
+Total: 0.201180 ms (FindLiveObjects: 0.028912 ms CreateObjectMapping: 0.021382 ms MarkObjects: 0.075292 ms  DeleteObjects: 0.074990 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3100 -> priority: 1 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.278882 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1013.
+Total: 0.218046 ms (FindLiveObjects: 0.037646 ms CreateObjectMapping: 0.017166 ms MarkObjects: 0.132815 ms  DeleteObjects: 0.021081 ms)
+
+UnityException: Tag: player is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectWithTag (string)
+  at UnityEngine.GameObject.FindWithTag (System.String tag) [0x00000] in <filename unknown>:0 
+  at PickUpObject.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 12c4 -> priority: 1 
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.540597 ms
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 301.
+Total: 0.198168 ms (FindLiveObjects: 0.017768 ms CreateObjectMapping: 0.014154 ms MarkObjects: 0.085531 ms  DeleteObjects: 0.079809 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 21c -> priority: 1 
