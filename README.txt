@@ -70,8 +70,9 @@ Art Assets
 All dungeon theme assets are from Decrepit Dungeon package from
 the Unity asset store.  Photoshop CS6 was used by Genaro Orodio to create the Note asset by
 editing the old parchment texture. Photoshop was also utilized to create the title
-logo, and 4 credits within the credits screen.  The text written on the note has an
-appropriately themed font named "A Theme for Murder."
+logo, and 4 credits within the credits screen. For a total of more than 5 original
+assets. The text written on the note has an appropriately themed font 
+named "A Theme for Murder."
 =================================================================================
 
 =================================================================================
