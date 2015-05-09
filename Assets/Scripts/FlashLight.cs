@@ -5,7 +5,8 @@ public class FlashLight : MonoBehaviour
 {
 	Light flashlight;
 	bool on = false;
-	
+	public float decaySpeed = .0002f;
+
 	void Start()
 	{
 		flashlight = GetComponentInChildren<Light>();
@@ -18,7 +19,7 @@ public class FlashLight : MonoBehaviour
 		if(on) {
 			flashlight.GetComponent<Light>().enabled = true;
 			if (Time.timeScale !=0)
-				flashlight.GetComponent<Light>().intensity -= .0005f;
+				flashlight.GetComponent<Light>().intensity -= decaySpeed;
 		}
 		else if(!on)
 			flashlight.GetComponent<Light>().enabled = false;

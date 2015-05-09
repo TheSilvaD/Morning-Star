@@ -6,14 +6,11 @@ public class Pause : MonoBehaviour {
 	private bool CanPause = true;
 	private GameObject go;
 	public MouseLook mouseLookScript;
-	//public Light flashLight;
-	//public FlashLight flashLightScript;
+	public GameObject pauseText;
 
 
 	void Start () {
 		mouseLookScript = GetComponent<MouseLook> ();
-		//flashLight = GetComponentInChildren<Light> ();
-		//flashLightScript = GetComponentInChildren<FlashLight> ();
 		CanPause = true;
 	}
 	void Update () {
@@ -25,8 +22,7 @@ public class Pause : MonoBehaviour {
 				CanPause = false;
 				Cursor.visible = true;
 				mouseLookScript.enabled = false;
-				//flashLight.enabled = false;
-				//flashLightScript.enabled = false;
+				PauseAppear();
 			}
 			else
 			{
@@ -35,14 +31,23 @@ public class Pause : MonoBehaviour {
 				CanPause=true;
 				Cursor.visible = false;
 				mouseLookScript.enabled = true;
-				//flashLight.enabled = true;
-				//flashLightScript.enabled = true;
+				PauseDisappear();
 			}
 		}
 	}
 
 	void OnPauseGame() {
 		CanPause = true;
+	}
+
+	void PauseDisappear() {
+		GameObject obj = GameObject.Find("Paused(Clone)");
+		if (obj)
+			Destroy (obj.gameObject);
+	}
+	
+	void PauseAppear() {
+		Instantiate(pauseText, transform.position + transform.forward, transform.rotation);
 	}
 
 }
