@@ -13,8 +13,13 @@ public class FlashLight : MonoBehaviour
 	
 	void Update()
 	{
-		if(on)
+		if (flashlight.GetComponent<Light>().intensity == 0)
+			Application.LoadLevel(3);
+		if(on) {
 			flashlight.GetComponent<Light>().enabled = true;
+			if (Time.timeScale !=0)
+				flashlight.GetComponent<Light>().intensity -= .0005f;
+		}
 		else if(!on)
 			flashlight.GetComponent<Light>().enabled = false;
 		if(Input.GetKeyDown(KeyCode.F))

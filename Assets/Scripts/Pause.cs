@@ -6,10 +6,14 @@ public class Pause : MonoBehaviour {
 	private bool CanPause = true;
 	private GameObject go;
 	public MouseLook mouseLookScript;
+	//public Light flashLight;
+	//public FlashLight flashLightScript;
 
 
 	void Start () {
 		mouseLookScript = GetComponent<MouseLook> ();
+		//flashLight = GetComponentInChildren<Light> ();
+		//flashLightScript = GetComponentInChildren<FlashLight> ();
 		CanPause = true;
 	}
 	void Update () {
@@ -21,6 +25,8 @@ public class Pause : MonoBehaviour {
 				CanPause = false;
 				Cursor.visible = true;
 				mouseLookScript.enabled = false;
+				//flashLight.enabled = false;
+				//flashLightScript.enabled = false;
 			}
 			else
 			{
@@ -29,6 +35,8 @@ public class Pause : MonoBehaviour {
 				CanPause=true;
 				Cursor.visible = false;
 				mouseLookScript.enabled = true;
+				//flashLight.enabled = true;
+				//flashLightScript.enabled = true;
 			}
 		}
 	}
